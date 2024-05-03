@@ -28,5 +28,5 @@ plt.legend(loc='upper right',
            bbox_to_anchor=(1.1, 1.05),
            borderaxespad=0.3,
            ncol=3)
-plt.savefig("./pie.jpg")
+plt.savefig("./pie.jpg",dpi=200)
 plt.show()
